@@ -1,0 +1,248 @@
+body {
+    margin: auto;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background-color: lightslategrey;
+    color: #ffffff;
+    justify-content: center;
+
+ 
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+     background-color:#121212;
+    border-radius: 20px;
+    
+  
+}
+
+.LeftBar {
+    width: 30%;
+    padding: 20px;
+    background-color: #202020;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+
+.LeftBar img {
+    border-radius: 50%;
+    width: 55%;
+    height: auto;
+    margin-bottom: 20px;
+    margin: auto 10px;
+}
+.LeftBar .profile-title-role p{
+    margin-top: -15px;
+    color:#ccc;
+
+}
+.LeftBar .social-icons svg {
+ justify-content: center;
+ margin: 15px 0px;
+    width: 32px;
+    height:auto;
+    fill:#FFF;
+    
+}
+
+.LeftBar .personal-info{
+    display: flex;
+    flex-direction:row;    
+    background-color:#2C2C2C;
+    width:95%;
+    padding: 15px 15px;
+    border-radius:10px;
+    margin-top: 10px;
+    
+}
+
+.LeftBar .personal-info img{
+    width:26px;
+    height:auto;
+      
+}
+
+.LeftBar .personal-info a{
+    text-decoration:none;
+    color:white;
+    text-align:left;
+}
+
+.LeftBar .social-icons a {
+    margin: 0 10px;
+}
+
+.LeftBar .info{
+      
+    background-color:#2C2C2C;
+    width:95%;
+    padding: 15px 15px;
+    border-radius:10px;
+    margin-top: 10px;
+   text-align: Left;
+
+}
+
+.LeftBar .info ul{
+    list-style-type: square;
+    margin: 20px;
+}
+
+.LeftBar .languages{
+      
+    background-color:#2C2C2C;
+    width:95%;
+    padding: 15px 15px;
+    border-radius:10px;
+    margin-top: 10px;
+   text-align: Left;
+
+}
+
+.LeftBar .hobbies{
+ background-color:#2C2C2C;
+    width:95%;
+    padding: 1px 15px;
+    border-radius:10px;
+    margin-top: 10px;
+   text-align: left;
+   justify-content: left;
+
+
+}
+.LeftBar .hobbies0{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+  padding: 1px 15px;
+  border-radius:10px;
+  margin: 0px auto;
+ text-align: center;
+ justify-content: space-around;
+
+
+}
+
+.LeftBar .hobbies img{
+ width:auto;
+ height:50px; 
+}
+
+
+
+
+
+
+/* Right Bar Start here ...*/
+.RightBar {
+    width: 70%;
+    padding: 20px;
+    background-color: #fff;
+    color:black;
+    margin: 10px 10px;
+    border-radius: 15px;
+}
+
+.RightBar h2{
+    background-color:#2C2C2C;
+    color:white;
+    padding:15px;
+    width:auto;
+    border-radius:15px; 
+}
+
+.RightBar h2::before{
+    content: "⮚ ";
+}
+
+.RightBar h3{
+    font-family: Arial, sans-serif;
+    color:#2C2C2C;
+    font-size:22px;
+    letter-spacing:normal;
+}
+
+.RightBar h3::before{
+    content: "⭗ ";
+}
+
+.RightBar h5{
+    font-family: Arial, sans-serif;
+    color:grey;
+    font-size:18px;
+    margin-top:-20px;
+}
+
+.RightBar p{
+    font-family: arial;
+    color:#1c1c1c;
+    font-size:16px;
+    font-weight: normal;
+    margin-top:-25px;
+}
+
+.RightBar .section p{
+    font-family: arial;
+    color:#1c1c1c;
+    font-size:16px;
+    margin-top:-25px;
+}
+
+.RightBar .section .skill{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+}
+
+.RightBar .section .skills img{
+    width:60%;
+    height:auto;
+    padding:20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+
+@media only screen and (max-width: 930px){
+
+    [class*="container"] {
+        flex-direction:column;
+  width: auto;           
+      }
+
+      [class*="LeftBar"] {
+        width: auto;
+      }
+
+      [class*="RightBar"] {
+        width: auto;
+      }
+
+
+      [class*="img"] {
+        width:auto;
+        height:auto;
+      }
+
+
+}
